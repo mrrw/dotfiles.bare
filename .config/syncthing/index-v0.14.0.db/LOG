@@ -1,0 +1,26 @@
+=============== Jan 1, 2020 (EST) ===============
+22:43:14.126925 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:43:14.132040 db@open opening
+22:43:14.133028 version@stat F·[] S·0B[] Sc·[]
+22:43:14.135578 db@janitor F·2 G·0
+22:43:14.135604 db@open done T·3.532922ms
+23:39:28.798356 memdb@flush N·87074 S·13MiB
+23:39:28.935783 memdb@flush created L0@3 N·87074 S·9MiB "\x00\x00\x00..ord,v70325":"\f\x00\x00..txt,v86585"
+23:39:28.935847 version@stat F·[1] S·9MiB[9MiB] Sc·[0.25]
+23:39:28.938333 memdb@flush committed F·1 T·139.914131ms
+23:39:28.940317 journal@remove removed @1
+23:50:28.583243 db@close closing
+23:50:28.583402 db@close done T·157.817µs
+=============== Jan 1, 2020 (EST) ===============
+23:50:29.637860 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:50:29.638108 version@stat F·[1] S·9MiB[9MiB] Sc·[0.25]
+23:50:29.638148 db@open opening
+23:50:29.638236 journal@recovery F·1
+23:50:29.639346 journal@recovery recovering @2
+23:50:29.851291 memdb@flush created L0@4 N·81299 S·7MiB "\x00\x00\x00..HiQ,v146548":"\f\x00\x00..wav,v149039"
+23:50:29.852038 version@stat F·[2] S·16MiB[16MiB] Sc·[0.50]
+23:50:29.861364 db@janitor F·4 G·0
+23:50:29.861410 db@open done T·223.227834ms
+=============== Jan 2, 2020 (EST) ===============
+00:00:26.392963 db@close closing
+00:00:26.393113 db@close done T·144.803µs
