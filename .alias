@@ -1,0 +1,63 @@
+#
+# ~/.alias
+#
+# Custom aliases sourced to ~/.bashrc and other shells.
+# 
+# To claim it as a source for a shell, add the following
+# line to your home config file.  Example:
+#
+# vim ~/.bashrc
+# Now add the following line:
+# source ~./alias
+ 
+# Test my first script
+alias 1st='/home/marrow/myfirstscript'
+
+# Colorize 'ls' output
+alias ls='ls --color=auto'
+
+# Run pacman as sudo to install packages.
+# [home@server ~]$ pm <package>
+alias pm='/usr/bin/sudo pacman -S'
+
+# Vim guide.
+alias vimguide='/home/marrow/docs/.vimguide'
+
+# Open w3m, bookmark page.
+#alias we='w3m -B'
+alias we='w3m -N https://www.duckduckgo.org'
+
+# Open Angband using sdl, and switch to workstation
+alias angband='angband -msdl'
+
+# Open common files in vim.
+alias vi3='vim .config/i3/config'
+alias vxr='vim .Xresources' 
+alias vbash='vim .bashrc'
+
+# 256colour test
+alias colours='/home/marrow/scripts/256colourchart.sh'
+
+# tmux, but with some panes open
+#alias tmux='tmux new-session \; split-window -h \; split-window -hb -p 100\; attach \; next-layout \; select-pane' 
+#alias tmux='tmux new-session \; split-window -h -p 75 \; split-window -hb -p 66\; attach \; select-pane' 
+#alias tmux='tmux -2 new-session \; split-window -v -p 85 \; split-window -h -p 72 \; split-window -hb -p 61\; attach' 
+alias tmux='tmux new-session \; split-window -h -p 75 \; split-window -hb -p 66\; attach \; select-pane'
+
+# Hello, world!
+alias hello /home/marrow/hello
+
+# cmatrix
+alias cmatrix='cmatrix -abs -u 7 -C magenta'
+alias c='cmatrix -abs -u 6 -C magenta'
+# pacman -R(remove) -n(nosave: remove config files) -s(recursive: remove unnecessary dependencies)
+
+# run JACK
+alias jack='/home/marrow/start_jack.sh'
+# Run less with sweet options:
+# -F  -- exit if output less-than one screen, case-insensitifity
+# -i  -- Ignore case when searching unless uppercase characters are found in search pattern
+# -M  -- Displays line numbers of the output.
+#alias less='less -FiM'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles.bare/ --work-tree=$HOME'
+#alias reaper='/home/marrow/REAPER/reaper_linux_i686/REAPER/reaper'

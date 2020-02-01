@@ -1,0 +1,29 @@
+# ~/.lesskey
+#
+#-- see:  man lesskey(1)
+#-- see:  man less(1)
+#
+#-- Keybinding config for less/man.
+#-- Commands specified by lesskey take precedence over
+#   the default commands.
+#-- A key may be defined to do nothing by using the
+#   action "noaction".
+#-- In addition, ALL default commands may be disabled
+#   by adding this control line to the input file:
+#   #stop
+#   This will cause all default commands to be ignored.
+#   The #stop line should be the last line in that
+#   section of the file.
+ 
+
+
+## w3m-like scrolling.
+
+#command
+#j	  noaction
+j	  forw-scroll
+k	  back-scroll
+J	  forw-screen
+K	  back-screen
+#env
+LESS = -FiMR

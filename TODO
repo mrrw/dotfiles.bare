@@ -1,0 +1,21 @@
+# TODO list for marrow.  
+#
+# Arch.  I live in the fucking shell.  So, lets make the shell awesome.
+#
+# Step 1:  Choose/Customize a terminal emulator.
+#     - Currently using xterm and/or urxvt
+#     - increase cursor blink rate
+# Step 2:  Customize zsh.
+#    I'll be living in zsh, so I want to tweak functionality:
+#     - tell me what vim mode it's in;
+#     - tell me what git repository it's in;
+#     - tweak autocomplete;
+#     - colorize syntax, etc;
+#     - pamper me in any way possible.  Zsh is my only friend. 
+# Step 3:  Tweak vim.
+#     - Colorize more syntax
+#     - change cursor shape, like zsh
+#     - increase cursor blink rate
+# Step 4:  Customize xmonad
+#     - use "startupHook" to start programs w/ xmonad (or use .xinitrc)
+#     - use "manageHook" to assign programs to different workstations

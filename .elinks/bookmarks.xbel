@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML"
+		       "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+
+<xbel>
+
+
+    <bookmark href="https://duckduckgo.org">
+        <title>DuckDuckGo</title>
+    </bookmark>
+
+    <bookmark href="https://wiki.archlinux.org/index.php/Installation_Guide">
+        <title>Installation guide - ArchWiki</title>
+    </bookmark>
+
+    <bookmark href="https://wiki.archlinux.org/index.php/System_maintenance">
+        <title>Arch Linus -- Maintenance</title>
+    </bookmark>
+
+
+</xbel>

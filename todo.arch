@@ -1,0 +1,47 @@
+###########################################################################
+###                                                                     ###
+###  TTTTTTTTTTTTTT     OOOOOOO		DDDDDDDD	  OOOOOOO	###
+###  TTTTTTTTTTTTTT    OOOO OOOO	DDDDDDDDDD	 OOOO OOOO	###
+###       TTTT 	      OOO     OOO	DDD	DDD	OOO     OOO	###
+###	  TTTT        OOO     OOO	DDD	DDD	OOO     OOO	###
+###	  TTTT        OOO     OOO	DDD	DDD	OOO     OOO	###
+###	  TTTT         OOOO OOOO	DDDDDDDDDD	 OOOO OOOO	###
+###	  TTTT          OOOOOOO		DDDDDDDD	  OOOOOOO	###
+###									###
+###########################################################################
+
+# 	Here is my master to-do list for Arch Linux.
+#	Tasks are listed in order of basic function.
+#	Efforts will be made to include dependencies in this list.
+
+
+#	I.	Customize BASH
+#		A.  Learn how to customize BASH
+#			1.	learn about Escape Sequences
+#		B.  Customize BASH
+#			1.  darken prompt colors
+#			2.  make ROOT prompt unique
+#	II.	Customize ZSH
+#		A.	Learn how to custize ZSH
+#		B.	Customize ZSH
+#	III.	Configure X11
+#		A.  See the following manual pages:
+#			1.  startx
+#			2.  xinit
+#			3.  xrdb
+#			4.  xorg
+#			5.  xterm
+#			6.  xmodmap
+#			7.  x
+#	  	B.  See the following files/directories:
+#	  		1.  /usr/share/X11
+#	  		2.  $ ~/.local/share/xorg/Xorg.0.log
+#	  		3.  /usr/share/fonts
+#	  		4.  /ect/X11/xinit/xinitrc
+#	  			a.  /home/marrow/.xinitrc
+#	IV.	Configure SUDO
+#		A.  SECURITY:  Create email account as log for failed attempts
+#		B.  Add marrow, but remember security first
+#	V.	Customize i3
+#		A.  
+#	VI.	

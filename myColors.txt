@@ -1,0 +1,247 @@
+The purpose of this file is to document a running brainstorm of my theme
+colors.  The base colors are what comes accross most beautifully on my best
+monitor.  The suggested colors are cherry picked from an app on my phone
+called "Pigments".
+
+This is, understandably, a work in progress.  There's a lot of info here, raw
+material to be shuffled together into themes perhaps.
+
+Base and suggested colors will remain in date/time order.  Theme boards will
+be in color order according to the "256 Color Cheat Sheet found at the end of
+this file.
+
+----------------------
+BASE colors
+----------------------
+1c1q1b -- long-lived murky background grey
+ff8800 -- glowing orange xmonad focused window
+
+----------------------
+SUGGESTED colors
+----------------------
+d91c1c -- straight red
+
+c797af -- pale pinkish-lavender
+45122b -- maroon, mostly
+6b1b41 -- lighter, brighter maroon
+753b57 -- pale maroon
+d12c7c -- bubblegum pink
+ed2887 -- hot bubblegum
+8f6535 -- toffee
+c2935d -- mocha
+47373f -- murky purple
+995979 -- faded reddish-purple
+241505 -- dark brown
+3b3035 -- dark purple-grey
+944b70 -- faded reddish-purple
+807569 -- sepia
+520825 -- purplee-maroon
+5e5449 -- gutter sepia
+5c4952 -- dark purple grey
+4d2a3a -- purple
+a19c97 -- light sepia
+290d1a -- dark brown
+2e2419 -- nice dark grey
+d6d2d4 -- light grey
+f58b11 -- glowing orange
+f09022 -- glowing orange
+36220c -- brown
+453c29 -- pale medium brown
+301121 -- dark purple
+d9a5bf -- light fluffy pink
+d9d6d2 -- offwhite
+875970 -- pale medium faded purple
+8a3760 -- a purple that goes with glowing orange
+c4b5bc -- light old-gum grey
+a67135 -- dead goldenrod
+b0b07b -- dead fish green
+316599 -- faded blue
+739ec9 -- light faded blue
+2f5780 -- substantial faded blue
+011c3d -- dark royal blue
+0e2033 -- dark blue
+70420c -- sandy brown
+5e86ad -- cornflower blue
+0b4a8a -- blue
+f0d4b4 -- cream
+6b6d6e -- fluffy grey
+90c3f5 -- light blue
+1c3f61 -- greanish blue
+3b5e82 -- crappy blue
+fa7339 -- gay hunter orange
+e3eb59 -- limey green
+9898b3 -- periwinkle
+99995f -- dead pale green
+eded1a -- vitamin c piss
+d8e3f0 -- pale sky purple
+d1c9cd -- pale sky sunset
+fcd700 -- goldenrod
+
+
+----------------------
+THEME BOARD 1
+----------------------
+0  Black
+3b3035 -- dark purple grey
+47373f -- murky purple
+1c1a1b -- default background
+
+1  Maroon
+45122b -- maroon, mostly
+753b57 -- pale maroon
+520825 -- purplee-maroon
+
+2  Green
+e3eb59 -- limey green
+b0b07b -- dead fish green
+3b5e82 -- crappy blue
+1c3f61 -- greanish blue
+
+3  Olive
+99995f -- dead pale green
+a67135 -- dead goldenrod
+
+4  Navy
+001c3d -- dark royal blue
+0e2033 -- dark blue
+
+5  Purple
+47474f -- murky purple
+753b57 -- pale maroon
+520825 -- purplee-maroon
+4d2a3a -- purple
+
+6  Teal
+5e86a5 -- cornflower blue
+1c3f61 -- greanish blue
+90c3f5 -- light blue
+
+7  Silver
+9898b3 -- periwinkle
+5e5449 -- gutter sepia
+
+8  Grey
+6b6d6e -- fluffy grey
+2e2419 -- nice dark grey
+
+9  Red
+d91c1c -- straight red
+
+10 Lime
+99995f -- dead pale green
+e3eb59 -- limey green
+eded1a -- vitamin c piss
+3b5e82 -- crappy blue
+
+11 Yellow
+fcd700 -- goldenrod
+a67135 -- dead goldenrod
+fa7339 -- gay hunter orange
+eded1a -- vitamin c piss
+
+12 Blue
+316599 -- faded blue
+739ec9 -- light faded blue
+
+13 Fuchsia
+d12c7c -- bubblegum pink
+c797af -- pale pinkish-lavender
+
+14 Aqua
+995979 -- faded reddish-purple
+5e86ad -- cornflower blue
+3b5e82 -- crappy blue
+
+15 White
+d1c9cd -- pale sky sunset
+807569 -- sepia
+
+
+
+----------------------
+256 COLORS CHEAT SHEET
+----------------------
+XTERM 16 Colors
+0   Black           000000
+1   Maroon          800000
+2   Green           008000
+3   Olive           808000
+4   Navy            000080
+5   Purple          800080
+6   Teal            008080
+7   Silver          c0c0c0
+8   Grey            808080
+9   Red             ff0000
+10  Lime            00ff00
+11  Yellow          ffff00
+12  Blue            0000ff
+13  Fuchsia         ff00ff
+14  Aqua            00ffff
+15  White           ffffff
+----------------------
+16  Grey0           000000
+17  NavyBlue        00005f
+18  DarkBlue        000087
+19  Blue3           0000af
+20  Blue3           0000d7
+21  Blue1           0000ff
+22  DarkGreen       005f00
+23  DeepSkyBlue4    005f5f
+24  DeepSkyBlue4    005f87
+25  DeepSkyBlue4    005faf
+26  DodgerBlue3     005fd7
+27  DodgerBlue2     005fff
+28  Green4          008700
+29  SpringGreen4    00875f
+30  Turquoise4      008787
+31  DeepSkyBlue3    0087af
+32  DeepSkyBlue3    0087d7
+33  DodgerBlue1     0087ff
+24  Green3          00af00
+35  SpringGreen3    00af5f
+36  DackCyan        00af87
+37  LightSeaGreen   00af87
+38  DeepSkyBlue2    00afd7
+39  DeepSkyBlue1    00afff
+40  Green 3         00d700
+41  SpringGreen3    00d700
+42  SpringGreen2    00d75f
+43  Cyan3           00d7af
+44  DarkTurquoise   00d7d7
+45  Turquoise2      00d7ff
+46  Green1          00ff00
+47  SpringGreen2    00ff5f
+48  SpringGreen1    00ff87
+49  MediumSpringGrn 00ffaf
+50  Cyan2           00ffd7
+51  Cyan1           00ffff
+52  DarkRed         5f0000
+53  DeepPink4       5f005f
+54  Purple4         5f0087
+55  Purple4         5f00af
+56  Purple3         5f00d7
+57  BlueViolet      5f00ff
+58  Orange4         5f5f00
+59  Grey37          5f5f5f
+60  MediumPurple4   5f5f87
+61  SlateBlue3      5f5faf
+62  SlateBlue3      5f5fd7
+63  RoyalBlue1      5f5fff
+64  Chartreuse4     5f8700
+65  DarkSeaGreen4   5f875f
+66  PaleTurguoise4  5f8787
+67  SteelBlue       5f87af
+68  SteelBlue3      5f87d7
+69  CornflowerBlue  5f87ff
+70  Chartreuse3     5faf00
+71  DarkSeaGreen4   5faf00
+72  CadetBlue       5faf87
+73  CadetBlue       5fafaf
+74  SkyBlue3        5fafd7
+75  SteelBlue1      5fafff
+76  Chartreuse3     5fd700
+77  PaleGreen3      5fd700
+78  SeaGreen3       5fd787
+...
+more at:
+https://jonasjacek.github.io/colors/

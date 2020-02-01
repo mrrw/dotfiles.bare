@@ -1,0 +1,15 @@
+
+xmonad.hs:20:14: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+   |
+20 | baseConfig = defaultConfig
+   |              ^^^^^^^^^^^^^
+
+xmonad.hs:24:18: warning: [-Wtabs]
+    Tab character found here, and in six further locations.
+    Please use spaces instead.
+   |
+24 |     , borderWidth               =    bW
+   |                  ^^^^^^^
