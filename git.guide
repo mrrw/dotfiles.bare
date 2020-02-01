@@ -28,7 +28,7 @@ git push
  - <directory.name> config --local status.showUntrackedFiles no
 # Next, sign into github and create a repo under the same name.
 # Then, type the following into your shell:
- - <directory.name> remote add origin https:github.com/<your.user.name>/<directory.name>.git
+ - <directory.name> remote add origin https://github.com/<your.user.name>/<directory.name>.git
  - <directory.name> add <file name>
  - <directory.name> commit -m "<custom.commit.message>"
  - <directory.name> push -u origin master
