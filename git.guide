@@ -1,0 +1,49 @@
+# start a repository
+git init
+
+# check status of files in the index vs working directory for your git repository
+git status
+
+git clone
+
+git add <filename>
+
+git commit -m 'first commit'
+
+git push
+
+
+
+#-----------------------------------------------------------#
+#  The Git Bare Repository:
+#  An elegent solution.
+#-----------------------------------------------------------#
+
+#-------------   Setting up a new repository:
+#
+# To begin, chose a directory name, and type the following into your shell:
+ - mkdir $HOME/<directory.name>
+ - git init --bare $HOME/<directory.name>
+ - echo "alias <directory.name>='git --git-dir=$HOME/<directory.name>/ --work-tree=$HOME'" >> $HOME/.alias
+ - <directory.name> config --local status.showUntrackedFiles no
+# Next, sign into github and create a repo under the same name.
+# Then, type the following into your shell:
+ - <directory.name> remote add origin https:github.com/<your.user.name>/<directory.name>.git
+ - <directory.name> add <file name>
+ - <directory.name> commit -m "<custom.commit.message>"
+ - <directory.name> push -u origin master
+# Done!!
+
+#-------------   Updating an existing repository
+#
+# First, reinitialize the repository:
+ - git init --bare $HOME/<directory.name>
+# Next, commit or push, perhaps? 
+# This is fucking hard.  Nothing works as expected.
+
+
+# When you want to pull the files, do this:
+ - git clone --bare https://github.com/<your.user.name>/<directory.name>.git $HOME/<directory.name>
+ - <directory.name> checkout
+ - <directory.name> config --local status.showUntrackedFiles no
+# At this point, your free to fetch, pull/add, commit, and push again.
